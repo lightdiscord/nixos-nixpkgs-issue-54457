@@ -5,8 +5,9 @@
 
 ## How to test ?
 
-Clone the repository, then run the following command.
+Clone the repository, then run the following commands.
 
 ```console
 $ nix build -f build.nix
+$ ./result/bin/Desktop-Bridge # or protonmail-bridge if you built the updated derivation.
 ```
